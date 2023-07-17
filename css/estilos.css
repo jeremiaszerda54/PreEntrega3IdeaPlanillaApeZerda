@@ -1,0 +1,166 @@
+.body{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.nombre{
+    margin: 20px;
+}
+.nombre input{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.apellido{
+    margin: 20px;
+}
+.apellido input{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+div h3{
+    margin-left: 45px;
+}
+.enter{
+    margin-left: 90px;
+}
+.enter button{
+    padding: 15px;
+    border-radius: 10px;
+    color: greenyellow;
+    background-color: black;
+    position: relative;
+    transition: top 0.3s ease;
+    text-decoration: none;
+}
+.enter button:hover{
+    transition: ();
+    box-shadow:  10px 15px 20px rgba(0, 255, 0, 0.895);
+    top: -5px;
+}
+.mensajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mensaje1{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0) ;
+    color:greenyellow ;
+}
+
+.botoncreado{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(153, 255, 0);
+    background-color: black;
+    position: relative;
+    transition: top 0.3s ease;
+
+    
+}
+.botoncreado:hover{
+    transition: ();
+    box-shadow:  10px 15px 20px rgba(0, 255, 0, 0.895);
+    top: 5px;
+}
+/**/
+.contenedor{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.datos_paciente{
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.nombres{
+    width: 250px;
+    height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+.apellidos{
+    width: 250px;
+    height: 500px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Eliminartodo{
+    width: 250px;
+    height: 500px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#eliminarDatos{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: brown;
+    color: greenyellow;
+    background-color: black;
+}
+#guardoo{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: brown;
+    color: greenyellow;
+    background-color: black;
+}
+.nada{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: brown;
+    color: greenyellow;
+    background-color: black;
+}
+#busquedaa{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Saludar{
+    text-align: center;
+}
