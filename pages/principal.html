@@ -5,31 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
+    <header>
+        <div id="Busquedad">
+            <div id="Busque">
+                <p>Buscar Paciente</p>
+                <form id="busquedaForm">
+                    <input type="text" placeholder="Buscar por Apellido" id="buscarApellido">
+                    <input id="buscarbt" type="submit">
+                </form>
+            </div>
+            <div id="mostrar_busqueda">
+                <div id="nombrebus"></div>
+                <div id="apellidobus"></div>
+                <div id="turnobus"></div>
+            </div>
+        </div>
+    </header>
+    <h1 id="saludar"></h1>
     <div class="contenedor" id="contenedor">
-        <div>
-            
-            <form id="myForm" class="datos_paciente">
-                <div id="Saludar"></div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" required><br><br>
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" required><br><br>
-                <button id="guardoo" type="submit">Guardar</button>
-            </form>
-        </div>
-        <div class="nombres" id="nombrescli"></div>
-        <div class="apellidos" id="apellidoscli"></div>
-        <div class="Eliminartodo">
-            
-            <button id="eliminarDatos">Eliminar Datos</button>
-            <div id="busquedaa"></div>
-            <div id="nada"></div>
+        <form id="datosdeentrada">
+            <div><p>Ingrese el nombre</p><input type="text" id="nomPa" placeholder="Nombre" ></div>
+            <div><p>Ingrese el apellido</p><input type="text" id="apePa" placeholder="Apellido" ></div>
+            <div><p>Ingrese el DNI</p><input type="text" id="dniPa" placeholder="DNI" ></div>
+            <div><p>Ingrese la fecha del turno</p><input type="date" id="turnoPa" ></div>
+            <div><input type="submit" value="Enviar" id="hecho"></div>
+        </form>
+    </div>
+    <div id="mostrar">
+        <div class="datos">
+
         </div>
     </div>
-    </div>
-    
+    <!-- LO que se mostrara -->
+    <!-- <div class="card">
+        <div class="card-border-top">
+        </div>
+        <div class="img">
+        </div>
+        <span> Nombre de la persona </span>
+        <p class="job"> turno </p>
+        <button> Eliminar</button>
+    </div> -->
+    <!-- luxon... -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
     <script src="../js/main2.js"></script>
 </body>
 </html>
